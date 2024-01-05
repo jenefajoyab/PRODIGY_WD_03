@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 2px;
+    background-color: #6e6060;
+    border: 10px solid black;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    height: 100px;
+    background-color: #fff;
+}
+
+.cell:hover {
+    background-color: #ddd;
+}
+
